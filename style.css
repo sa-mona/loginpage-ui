@@ -1,0 +1,137 @@
+body{
+    margin:0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+      position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px 50px;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+.socialmedia-icon{
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    width: 50px;
+    height: 40px;
+    gap: 30px;
+}
+a:hover{
+     color: orangered;
+     cursor: pointer;
+ } 
+
+ #wraper{
+    display: flex;
+ }
+.right-img{
+
+    margin-left:auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.right-img img{
+
+    width:250px;
+    height:auto;
+    object-fit:cover;
+    margin-right: 100px;
+}
+.left-img{
+
+    margin-left:auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.left-img img{
+
+    width:250px;
+    height:auto;
+    object-fit:cover;
+}
+.container{
+   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 5px;
+    width: 500px;
+    margin-top: 0px;
+    margin-left:400px;
+
+ }
+ .container h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    align-items:normal;
+    font-size: 30px;
+    margin-right: 70px;
+    margin-top: 10px;
+    margin-bottom: 0;
+
+ }
+ .container p{
+    color: rgb(134, 129, 129);
+    margin-right: 25px;
+    margin-top: 0;
+    
+ }
+
+input{
+    width: 250px;
+    height: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+
+}
+#signup-btn{
+    background-color: orangered;
+    color: white;
+    border-radius: 10px;
+    width: 250px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+
+}
+#signup-btn:hover{
+
+    color: white;
+    background-color: black;
+
+}
+
+#google-btn{
+    border-radius: 10px;
+    width: 250px;
+    padding: 10px;
+    outline: grey;
+    margin-bottom: 10px;
+
+}
+#google-btn:hover{
+    color: white;
+    background-color: black;
+}
+
+

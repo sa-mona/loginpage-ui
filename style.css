@@ -1,6 +1,7 @@
 body{
     margin:0;
     padding: 0;
+    background-color:grey;
 }
 
 nav{
@@ -9,7 +10,6 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding:30px 50px;
-    background-color:grey;
 }
 
 .logo{

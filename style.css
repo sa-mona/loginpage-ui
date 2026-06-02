@@ -5,10 +5,11 @@ body{
 
 nav{
     display: flex;
-      position: sticky;
+    position: sticky;
     justify-content: space-between;
     align-items: center;
     padding:30px 50px;
+    background-color:grey;
 }
 
 .logo{
